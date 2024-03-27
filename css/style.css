@@ -2,6 +2,14 @@
     font-family: Jost;
     src: url(../font/Jost-VariableFont_wght.ttf);
 }
+.text-container {
+    max-width: 900px; 
+}
+
+.text-container p {
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
 h1,h2,h3 {
     color: black;
 }
@@ -25,12 +33,4 @@ a {
     background-color: rgb(161, 186, 255);
     border-radius: 5px;
 
-}
-.text-container {
-    max-width: 900px; 
-  }
-
-.text-container p {
-word-wrap: break-word;
-overflow-wrap: break-word;
 }
