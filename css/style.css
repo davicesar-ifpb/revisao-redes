@@ -1,6 +1,6 @@
 @font-face {
     font-family: Jost;
-    src: url(../font/Jost-VariableFont_wght.ttf);
+    src: url(font/Jost-VariableFont_wght.ttf);
 }
 h1,h2,h3 {
     color: black;
