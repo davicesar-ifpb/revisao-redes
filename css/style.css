@@ -10,9 +10,9 @@ h1 {
 }
 body {
     font-family: Jost, Arial, Helvetica, sans-serif;
-    margin-right: 55%;
     text-align: justify;
     color: rgb(43, 43, 43);
+    line-break: 50%;
 }
 a {
     color: rgb(72, 72, 219);
