@@ -6,71 +6,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Introdução a Redes</title>
   <link rel="stylesheet" href="./css/style.css">
+  <style>
+
+    .text-container {
+      max-width: 900px; 
+    }
+
+    .text-container p {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Introdução a Redes</h1>
 
-  <h3>1. Definição da Internet e Protocolos:</h3>
-  <ul>
-    <li>A Internet é uma rede global de computadores interconectados que permite a comunicação e o compartilhamento de
-      informações.</li>
-    <li>Protocolos são conjuntos de regras que definem como os dados são transmitidos e recebidos na rede, garantindo a
-      comunicação eficiente entre dispositivos.</li>
-  </ul>
-
-  <h3>2. Periferia da Rede: Sistemas Finais, Redes de Acesso e Meios Físicos:</h3>
-  <ul>
-    <li>Os <strong>sistemas finais</strong>, como computadores e dispositivos móveis, são os pontos de extremidade da
-      rede (hosts).</li>
-    <li>As redes de acesso são responsáveis por conectar os sistemas finais à infraestrutura de rede, utilizando
-      diferentes tecnologias, como cabos, Wi-Fi, fibra óptica, entre outros.</li>
-    <li>Os <strong>meios físicos</strong> são os meios de transmissão utilizados para enviar dados pela rede, como cabos
-      de cobre, fibra óptica e ondas de rádio.</li>
-  </ul>
-
-  <h3>3. Núcleo da Rede: Comutação de Pacotes/Circuitos e Estrutura da Internet:</h3>
-  <ul>
-    <li>A comutação de pacotes é um método de transmissão de dados em que as informações são divididas em pacotes
-      independentes que seguem caminhos diferentes pela rede e são reagrupados no destino.</li>
-    <li><strong>A estrutura da Internet é composta por uma rede de roteadores interconectados que encaminham os pacotes
-        de dados entre os sistemas finais.</strong></li>
-  </ul>
-
-  <h3>4. Desempenho: Perdas, Atrasos e Taxa de Transferência:</h3>
-  <ul>
-    <li>O desempenho de uma rede é afetado por fatores como perdas de pacotes, atrasos na transmissão e taxa de
-      transferência, que determinam a eficiência e a qualidade da comunicação.</li>
-  </ul>
-
-  <h3>5. Camadas de Protocolos e Modelo de Referência:</h3>
-  <ul>
-    <li>As camadas de protocolos dividem as funcionalidades de comunicação em diferentes níveis, facilitando o
-      desenvolvimento, manutenção e interoperabilidade de sistemas de rede. O <a class="hover"
-        href="pages/modelo_referencia.html">modelo de referência</a>, como o modelo OSI ou TCP/IP, organiza essas
-      camadas em uma estrutura hierárquica para padronizar a comunicação entre dispositivos.</li>
-  </ul>
-
-  <h3>6. Histórico e Evolução das Redes de Computadores:</h3>
-  <ul>
-    <li>O histórico das redes de computadores abrange desde os primórdios da comunicação digital até a evolução da
-      Internet, passando por marcos importantes como a criação da ARPANET e o desenvolvimento de tecnologias de rede.
-    </li>
-  </ul>
-  <blockquote>
+  <div class="text-container">
+    <h3>1. Definição da Internet e Protocolos:</h3>
     <ul>
-      <li><strong>ARPANET (1969)</strong>:</li>
-      <ul>
-        <li>A ARPANET foi a precursora da Internet, desenvolvida pela ARPA (Advanced Research Projects Agency) dos
-          Estados Unidos.</li>
-        <li>Criada em 1969, a ARPANET foi a primeira rede a utilizar comutação de pacotes e protocolos de comunicação
-          para interligar computadores em diferentes locais.</li>
-      </ul>
+      <li>A Internet é uma rede global de computadores interconectados que permite a comunicação e o compartilhamento de
+        informações.</li>
+      <li>Protocolos são conjuntos de regras que definem como os dados são transmitidos e recebidos na rede, garantindo
+        a
+        comunicação eficiente entre dispositivos.</li>
     </ul>
-  </blockquote>
 
-  <p style="font-size: 20px; margin-bottom: 1px;"><b>Próximo tópico</b></p>
-  <a href="pages/camada_aplicacao.html"><img src="img/avancar.png" alt="Próximo tópico"></a>
+    <h3>2. Periferia da Rede: Sistemas Finais, Redes de Acesso e Meios Físicos:</h3>
+    <ul>
+      <li>Os <strong>sistemas finais</strong>, como computadores e dispositivos móveis, são os pontos de extremidade da
+        rede (hosts).</li>
+      <li>As redes de acesso são responsáveis por conectar os sistemas finais à infraestrutura de rede, utilizando
+        diferentes tecnologias, como cabos, Wi-Fi, fibra óptica, entre outros.</li>
+      <li>Os <strong>meios físicos</strong> são os meios de transmissão utilizados para enviar dados pela rede, como
+        cabos
+        de cobre, fibra óptica e ondas de rádio.</li>
+    </ul>
+
+    <h3>3. Núcleo da Rede: Comutação de Pacotes/Circuitos e Estrutura da Internet:</h3>
+    <ul>
+      <li>A comutação de pacotes é um método de transmissão de dados em que as informações são divididas em pacotes
+        independentes que seguem caminhos diferentes pela rede e são reagrupados no destino.</li>
+      <li><strong>A estrutura da Internet é composta por uma rede de roteadores interconectados que encaminham os
+          pacotes
+          de dados entre os sistemas finais.</strong></li>
+    </ul>
+
+    <h3>4. Desempenho: Perdas, Atrasos e Taxa de Transferência:</h3>
+    <ul>
+      <li>O desempenho de uma rede é afetado por fatores como perdas de pacotes, atrasos na transmissão e taxa de
+        transferência, que determinam a eficiência e a qualidade da comunicação.</li>
+    </ul>
+
+    <h3>5. Camadas de Protocolos e Modelo de Referência:</h3>
+    <ul>
+      <li>As camadas de protocolos dividem as funcionalidades de comunicação em diferentes níveis, facilitando o
+        desenvolvimento, manutenção e interoperabilidade de sistemas de rede. O <a class="hover"
+          href="pages/modelo_referencia.html">modelo de referência</a>, como o modelo OSI ou TCP/IP, organiza essas
+        camadas em uma estrutura hierárquica para padronizar a comunicação entre dispositivos.</li>
+    </ul>
+
+    <h3>6. Histórico e Evolução das Redes de Computadores:</h3>
+    <ul>
+      <li>O histórico das redes de computadores abrange desde os primórdios da comunicação digital até a evolução da
+        Internet, passando por marcos importantes como a criação da ARPANET e o desenvolvimento de tecnologias de rede.
+      </li>
+    </ul>
+    <blockquote>
+      <ul>
+        <li><strong>ARPANET (1969)</strong>:</li>
+        <ul>
+          <li>A ARPANET foi a precursora da Internet, desenvolvida pela ARPA (Advanced Research Projects Agency) dos
+            Estados Unidos.</li>
+          <li>Criada em 1969, a ARPANET foi a primeira rede a utilizar comutação de pacotes e protocolos de comunicação
+            para interligar computadores em diferentes locais.</li>
+        </ul>
+      </ul>
+    </blockquote>
+  </div>
+
+  <div>
+    <p style="font-size: 20px; margin-bottom: 1px;"><b>Próximo tópico</b></p>
+    <a href="pages/camada_aplicacao.html"><img src="img/avancar.png" alt="Próximo tópico"></a>
+  </div>
 </body>
 
 </html>
