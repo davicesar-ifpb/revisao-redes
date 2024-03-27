@@ -26,3 +26,11 @@ a {
     border-radius: 5px;
 
 }
+.text-container {
+    max-width: 900px; 
+  }
+
+.text-container p {
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
