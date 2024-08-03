@@ -2,36 +2,52 @@
     font-family: Jost;
     src: url(../font/Jost-VariableFont_wght.ttf);
 }
-.text-container {
-    max-width: 900px; 
-}
-
-.text-container p {
-word-wrap: break-word;
-overflow-wrap: break-word;
-}
-
-h1,h2,h3 {
-    color: black;
-}
-h1 {
-    text-align: left;
-}
 body {
     font-family: Jost, Arial, Helvetica, sans-serif;
     text-align: justify;
-    color: rgb(43, 43, 43);
-    line-break: 50%;
+    background-color: #2d2a2e;
+    color: #bebebe;
+    display: flex;
+    justify-content: center;
 }
-a {
-    color: rgb(72, 72, 219);
+
+.text-container {
+    width: 800px
+}
+
+.mudarPagina-container {
+    display: flex;
+}
+
+.mudarPagina {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h1,h2, .titulo {
+    color: #ddd;
     font-weight: bold;
 }
 
+h2, .titulo {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: left;
+}
+
+.hover {
+    color: rgb(109, 143, 255);
+    font-weight: bold;
+    padding: 0 4px 0 4px;
+}
 
 
 .hover:hover {
-    background-color: rgb(161, 186, 255);
-    border-radius: 5px;
+    background-color: rgb(109, 143, 255);
+    color: #2d2a2e;
+    border-radius: 4px;
 
 }
